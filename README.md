@@ -1,9 +1,10 @@
 # airSlate Task - UI Test Automation - Playwright + TypeScript
-Test Assignment: QA General 
+
+Test Assignment: QA General
 
 ## 📌 Project Description
 
-This project contains an automated UI test created as part of **Task 3**.
+This project contains an automated UI test created in **Task 3**.
 The test verifies the login functionality on the target page:
 
 👉 https://dochub.com/sign-in
@@ -14,11 +15,11 @@ The scenario checks that an appropriate error message is displayed when invalid 
 
 ## 🛠️ Tools & Technologies
 
-* Playwright
-* TypeScript
-* Faker.js (for generating test data)
-* Prettier (code formatting)
-* Page Object Model (POM) design pattern
+- Playwright
+- TypeScript
+- Faker.js (for generating test data)
+- Prettier (code formatting)
+- Page Object Model (POM) design pattern
 
 ---
 
@@ -34,9 +35,9 @@ The scenario checks that an appropriate error message is displayed when invalid 
 
 ## 📂 Project Structure
 
-* `pages/` – Page Object Models (login page)
-* `tests/` – Test files
-* `playwright.config.ts` – Playwright configuration
+- `pages/` – Page Object Models (login page)
+- `tests/` – Test files
+- `playwright.config.ts` – Playwright configuration
 
 ---
 
@@ -111,6 +112,6 @@ npx playwright show-report
 
 ## 🧩 Notes
 
-* The project uses the Page Object Model (POM) for better maintainability.
-* Faker.js is used to generate invalid test data dynamically.
-* Code follows clean structure and clear naming conventions.
+- The project uses the Page Object Model (POM) for better maintainability.
+- Faker.js is used to generate invalid test data dynamically.
+- Code follows clean structure and clear naming conventions.
