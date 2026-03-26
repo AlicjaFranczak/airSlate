@@ -17,6 +17,7 @@ The scenario checks that an appropriate error message is displayed when invalid 
 * Playwright
 * TypeScript
 * Faker.js (for generating test data)
+* Prettier (code formatting)
 * Page Object Model (POM) design pattern
 
 ---
@@ -54,6 +55,20 @@ npx playwright install
 ```
 
 ---
+
+## 🎨 Code Formatting (Prettier)
+
+Install Prettier:
+
+```bash
+npm install --save-dev prettier
+```
+
+Format all files:
+
+```bash
+npx prettier --write .
+```
 
 ## 🌐 Browser Configuration
 
